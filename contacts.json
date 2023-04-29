@@ -1,0 +1,23 @@
+{
+    "contact": {
+      "firstName": "Dallin",
+      "lastName": "Jones",
+      "email": "bestsonever@test.com",
+      "favoriteColor": "Green",
+      "birthday": "10/03/18"
+    },
+    "contact2": {
+      "firstName": "Brenden",
+      "lastName": "Cole",
+      "email": "coleguy@test.com",
+      "favoriteColor": "Red",
+      "birthday": "04/28/86"
+    },
+    "contact3": {
+      "firstName": "Brooke",
+      "lastName": "Bytheway",
+      "email": "mahwife@test.com",
+      "favoriteColor": "Yellow",
+      "birthday": "08/22/94"
+    }
+  }
