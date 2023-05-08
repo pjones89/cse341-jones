@@ -1,5 +1,7 @@
-GET http://localhost:3000 HTTP/1.1
-
+###
+GET http://localhost:8080/contacts HTTP/1.1
+###
+GET http://localhost:8080/contacts/645979f1fcd81beb1dd8c152 HTTP/1.1
 ###
 
-GET https://cse341-jones.onrender.com HTTP/1.1
+GET https://cse341-jones.onrender.com/contacts HTTP/1.1
