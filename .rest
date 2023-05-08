@@ -3,5 +3,59 @@ GET http://localhost:8080/contacts HTTP/1.1
 ###
 GET http://localhost:8080/contacts/645979f1fcd81beb1dd8c152 HTTP/1.1
 ###
+POST http://localhost:8080/contacts HTTP/1.1
+content-type: application/json
+
+{     
+      "firstName": "Bro",
+      "lastName": "Jones",
+      "email": "mahman@test.com",
+      "favoriteColor": "Brown",
+      "birthday": "08/22/96"
+      }
+###
+PUT http://localhost:8080/contacts/6459800884cd11ac0d3f501d HTTP/1.1
+content-type: application/json
+
+{     
+      "firstName": "Bro",
+      "lastName": "Jones",
+      "email": "mahman@test.com",
+      "favoriteColor": "Brown",
+      "birthday": "08/22/96"
+      }
+
+###
+DELETE http://localhost:8080/contacts/6459800884cd11ac0d3f501d HTTP/1.1
+###
 
 GET https://cse341-jones.onrender.com/contacts HTTP/1.1
+
+###
+GET https://cse341-jones.onrender.com/contacts/645979f1fcd81beb1dd8c152 HTTP/1.1
+###
+POST https://cse341-jones.onrender.com/contacts HTTP/1.1
+content-type: application/json
+
+{     
+      "firstName": "Bro",
+      "lastName": "Jones",
+      "email": "mahman@test.com",
+      "favoriteColor": "Brown",
+      "birthday": "08/22/96"
+      }
+###
+PUT https://cse341-jones.onrender.com/contacts/645979f1fcd81beb1dd8c152 HTTP/1.1
+content-type: application/json
+
+{     
+      "firstName": "Bro",
+      "lastName": "Jones",
+      "email": "mahman@test.com",
+      "favoriteColor": "Brown",
+      "birthday": "08/22/96"
+      }
+
+###
+DELETE https://cse341-jones.onrender.com/contacts/6459800884cd11ac0d3f501d HTTP/1.1
+###
