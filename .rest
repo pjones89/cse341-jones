@@ -29,10 +29,13 @@ content-type: application/json
 DELETE http://localhost:8080/contacts/6459800884cd11ac0d3f501d HTTP/1.1
 ###
 
+
+
+
 GET https://cse341-jones.onrender.com/contacts HTTP/1.1
 
 ###
-GET https://cse341-jones.onrender.com/contacts/645979f1fcd81beb1dd8c152 HTTP/1.1
+GET https://cse341-jones.onrender.com/contacts/64597a34fcd81beb1dd8c153 HTTP/1.1
 ###
 POST https://cse341-jones.onrender.com/contacts HTTP/1.1
 content-type: application/json
@@ -45,17 +48,17 @@ content-type: application/json
       "birthday": "08/22/96"
       }
 ###
-PUT https://cse341-jones.onrender.com/contacts/645979f1fcd81beb1dd8c152 HTTP/1.1
+PUT https://cse341-jones.onrender.com/contacts/645c6f30d8b35f5b1512c077 HTTP/1.1
 content-type: application/json
 
 {     
-      "firstName": "Bro",
+      "firstName": "Broseph",
       "lastName": "Jones",
       "email": "mahman@test.com",
-      "favoriteColor": "Brown",
+      "favoriteColor": "Blue-ish",
       "birthday": "08/22/96"
       }
 
 ###
-DELETE https://cse341-jones.onrender.com/contacts/6459800884cd11ac0d3f501d HTTP/1.1
+DELETE https://cse341-jones.onrender.com/contacts/645c6f30d8b35f5b1512c077 HTTP/1.1
 ###
